@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
@@ -14,10 +14,7 @@ function App() {
         <Route path="/notes/sort/createdate" element={<h1>TODO</h1>} />
         <Route path="/notes/filter/overdue" element={<h1>TODO</h1>} />
         <Route path="/notes/filter/done" element={<h1>TODO</h1>} />
-
       </Routes>
-      
-
     </div>
   );
 }
